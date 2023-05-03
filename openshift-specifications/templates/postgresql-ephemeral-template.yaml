@@ -57,7 +57,7 @@ metadata:
     operation: Update
     time: "2021-01-25T20:06:49Z"
   name: postgresql-ephemeral
-  namespace: aravind-c
+  namespace: openshift
   resourceVersion: "16112"
   selfLink: /apis/template.openshift.io/v1/namespaces/openshift/templates/postgresql-ephemeral
   uid: b9a606e7-cc24-43f6-b72e-4030b0e407f3
@@ -185,7 +185,7 @@ parameters:
 - description: The OpenShift Namespace where the ImageStream resides.
   displayName: Namespace
   name: NAMESPACE
-  value: aravind-c
+  value: openshift
 - description: The name of the OpenShift Service exposed for the database.
   displayName: Database Service Name
   name: DATABASE_SERVICE_NAME
